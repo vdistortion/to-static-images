@@ -1,14 +1,14 @@
 {
-  "name": "to-webp-json",
-  "version": "1.0.1",
-  "description": "Image conversion for static websites",
+  "name": "to-static-images",
+  "version": "1.0.0",
+  "description": "Build optimized static image assets (webp, avif, png, jpg) with optional resize and JSON manifest",
   "main": "./dist/index.js",
   "type": "module",
   "bin": "./dist/index.js",
-  "homepage": "https://vdistortion.github.io/to-webp-json/",
+  "homepage": "https://vdistortion.github.io/to-static-images/",
   "repository": {
     "type": "git",
-    "url": "git@github.com:vdistortion/to-webp-json.git"
+    "url": "git@github.com:vdistortion/to-static-images.git"
   },
   "scripts": {
     "dev": "tsx src/index.ts",
@@ -24,10 +24,21 @@
   },
   "keywords": [
     "typescript",
-    "library",
+    "images",
+    "image-optimization",
+    "image-processing",
     "webp",
+    "avif",
+    "png",
+    "jpg",
+    "cli",
+    "build-tool",
     "json",
-    "static"
+    "static-site",
+    "static-assets",
+    "manifest",
+    "frontend",
+    "to-webp-json"
   ],
   "author": "Валентин <valentin.distortion@gmail.com>",
   "license": "GPL",

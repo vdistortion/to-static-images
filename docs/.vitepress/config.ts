@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'to-webp-json',
+  title: 'to-static-images',
   description: 'Image conversion for static websites',
-  base: '/to-webp-json/',
-  head: [['link', { rel: 'icon', href: '/to-webp-json/favicon.ico' }]],
+  base: '/to-static-images/',
+  head: [['link', { rel: 'icon', href: '/to-static-images/favicon.ico' }]],
   locales: {
     root: {
       label: '🇬🇧 English',
@@ -24,7 +24,7 @@ export default defineConfig({
         sidebar: [
           {
             text: 'Dokumentation',
-            items: [{ text: 'to-webp-json', link: '/de/docs' }],
+            items: [{ text: 'to-static-images', link: '/de/docs' }],
           },
         ],
       },
@@ -42,7 +42,7 @@ export default defineConfig({
         sidebar: [
           {
             text: 'Документація',
-            items: [{ text: 'to-webp-json', link: '/ua/docs' }],
+            items: [{ text: 'to-static-images', link: '/ua/docs' }],
           },
         ],
       },
@@ -60,7 +60,7 @@ export default defineConfig({
         sidebar: [
           {
             text: 'Документация',
-            items: [{ text: 'to-webp-json', link: '/ru/docs' }],
+            items: [{ text: 'to-static-images', link: '/ru/docs' }],
           },
         ],
       },
@@ -76,13 +76,13 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Docs',
-        items: [{ text: 'to-webp-json', link: '/docs' }],
+        items: [{ text: 'to-static-images', link: '/docs' }],
       },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vdistortion/to-webp-json' },
-      { icon: 'npm', link: 'https://www.npmjs.com/package/to-webp-json' },
+      { icon: 'github', link: 'https://github.com/vdistortion/to-static-images' },
+      { icon: 'npm', link: 'https://www.npmjs.com/package/to-static-images' },
     ],
   },
 });

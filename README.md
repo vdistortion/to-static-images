@@ -1,10 +1,12 @@
-# to-webp-json
+# to-static-images
 
-[![NPM Version](https://img.shields.io/npm/v/to-webp-json?style=flat&logo=npm&label=version&color=cb3837)](https://www.npmjs.com/package/to-webp-json)
-[![GitHub Created At](https://img.shields.io/github/created-at/vdistortion/to-webp-json?style=flat&logo=github)](https://github.com/vdistortion/to-webp-json)
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/vdistortion/to-webp-json)
+**Formerly known as `to-webp-json`**
 
-[![to-webp-json](docs/bg.jpg)](https://vdistortion.github.io/to-webp-json/)
+[![NPM Version](https://img.shields.io/npm/v/to-static-images?style=flat&logo=npm&label=version&color=cb3837)](https://www.npmjs.com/package/to-static-images)
+[![GitHub Created At](https://img.shields.io/github/created-at/vdistortion/to-static-images?style=flat&logo=github)](https://github.com/vdistortion/to-static-images)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/vdistortion/to-static-images)
+
+[![to-static-images](docs/bg.jpg)](https://vdistortion.github.io/to-static-images/)
 
 A CLI tool that converts images to the desired format, generates a structured JSON map of the output files, and optionally resizes them by width and/or height. Useful for static sites, galleries, and automation.
 
@@ -19,7 +21,7 @@ mkdir img-src
 Place images inside `img-src`
 
 ```shell
-npx to-webp-json@latest
+npx to-static-images@latest
 ```
 
 ## 💻 Command-line options
@@ -37,17 +39,17 @@ npx to-webp-json@latest
 ## ✨ Examples
 
 ```shell
-npx to-webp-json json=static-images format=original
+npx to-static-images json=static-images format=original
 ```
 
 ```shell
-npx to-webp-json src=sources height=2000
+npx to-static-images src=sources height=2000
 ```
 
 Run with no arguments (interactive mode)
 
 ```shell
-npx to-webp-json
+npx to-static-images
 ```
 
 ## 🌍 Translations

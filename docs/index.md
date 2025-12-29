@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 'to-webp-json'
+  name: 'to-static-images'
   text: 'Image conversion'
   tagline: for static websites
   image: logo.jpg
@@ -13,10 +13,10 @@ hero:
       link: /docs
     - theme: alt
       text: GitHub
-      link: https://github.com/vdistortion/to-webp-json
+      link: https://github.com/vdistortion/to-static-images
     - theme: alt
       text: NPM
-      link: https://github.com/vdistortion/to-webp-json
+      link: https://github.com/vdistortion/to-static-images
 
 features:
   - title: Image format conversion
@@ -30,7 +30,7 @@ features:
 ## 🚀 Use
 
 ```sh
-npx to-webp-json@latest
+npx to-static-images@latest
 ```
 
 ## 🌍 Translations

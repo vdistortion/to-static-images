@@ -1,6 +1,6 @@
-# to-webp-json
+# to-static-images
 
-![to-webp-json](../bg.jpg)
+![to-static-images](../bg.jpg)
 
 Ein CLI-Tool, das Bilder in das gewünschte Format konvertiert, eine Dateistruktur im JSON-Format generiert und bei Bedarf die Größe ändert. Nützlich für statische Websites, Galerien und Automatisierung.
 
@@ -15,7 +15,7 @@ mkdir img-src
 Legen Sie Bilder in den Ordner `img-src`
 
 ```shell
-npx to-webp-json@latest
+npx to-static-images@latest
 ```
 
 ## 💻 Befehlszeilenoptionen
@@ -33,15 +33,15 @@ npx to-webp-json@latest
 ## ✨ Beispiele
 
 ```shell
-npx to-webp-json json=static-images format=original
+npx to-static-images json=static-images format=original
 ```
 
 ```shell
-npx to-webp-json src=sources height=2000
+npx to-static-images src=sources height=2000
 ```
 
 Start ohne Argumente (interaktiver Modus)
 
 ```shell
-npx to-webp-json
+npx to-static-images
 ```

@@ -1,6 +1,6 @@
-# to-webp-json
+# to-static-images
 
-![to-webp-json](../bg.jpg)
+![to-static-images](../bg.jpg)
 
 Инструмент командной строки, который конвертирует изображения в нужный формат, генерирует структуру файлов в формате JSON и при необходимости изменяет размеры. Полезен для статических сайтов, галерей и автоматизации.
 
@@ -15,7 +15,7 @@ mkdir img-src
 Поместите изображения в `img-src`
 
 ```shell
-npx to-webp-json@latest
+npx to-static-images@latest
 ```
 
 ## 💻 Параметры командной строки
@@ -33,15 +33,15 @@ npx to-webp-json@latest
 ## ✨ Примеры
 
 ```shell
-npx to-webp-json json=static-images format=original
+npx to-static-images json=static-images format=original
 ```
 
 ```shell
-npx to-webp-json src=sources height=2000
+npx to-static-images src=sources height=2000
 ```
 
 Запуск без аргументов (интерактивный режим)
 
 ```shell
-npx to-webp-json
+npx to-static-images
 ```
